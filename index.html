@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- character set -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title -->
+  <title>Zodiac Sign</title>
+  <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+  <!-- FONT AWESOME CSS -->
+  <link rel="stylesheet" href="css/fa-svg-with-js.css">
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">
+  <script defer src="js/fontawesome-all.min.js"></script>
+  <!-- CSS RESET -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <div class="row">
+      <div class="center col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <div>
+          <div class="form-group">
+            <h1>Enter your <br>Horoscope Sign</h1>
+          </div>
+          <div class="form-group">
+
+            <!-- Getting this ID with Javascript variable titled btn -->
+            <input id="userdata" class="form-control">
+          </div>
+          <div class="form-group">
+            <!-- runs the function line 66 main.js -->
+            <button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">View your Horoscope</button>
+          </div>
+        </div>
+
+        <div>
+          <h1 id="yourSign"></h1>
+          <img id="icon" src="">
+          <p id="yourHoroscope"></p>
+        </div>
+
+        <!-- <div id="images">
+          <img src="images/pisces.png" alt="ZodiacSign">
+          <img src="images/aries.png" alt="ZodiacSign">
+          <img src="images/taurus.png" alt="ZodiacSign">
+          <img src="images/gemini.png" alt="ZodiacSign">
+          <img src="images/cancer.png" alt="ZodiacSign">
+          <img src="images/leo.png" alt="ZodiacSign">
+          <img src="images/virgo.png" alt="ZodiacSign">
+          <img src="images/libra.png" alt="ZodiacSign">
+          <img src="images/scorpio.png" alt="ZodiacSign">
+          <img src="images/sagittarius.png" alt="ZodiacSign">
+          <img src="images/capricorn.png" alt="ZodiacSign">
+          <img src="images/aquarius.png" alt="ZodiacSign"> -->
+        </div>
+
+      </div>
+
+    <div class="allZodiacSigns">
+      <img src="images/all.png" alt="allZodiacSigns">
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
