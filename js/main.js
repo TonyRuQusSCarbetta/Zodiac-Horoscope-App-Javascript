@@ -123,7 +123,7 @@ function horoscope() {
 
       // stop the function because we found a match and added the data to the screen!!!
       return;
-    };
+    }
 
     // confirm no matches are found if that's the case
     console.log("no matches were found, user failed to type in a correct zodiac sign");
@@ -132,10 +132,8 @@ function horoscope() {
     document.getElementById("yourSign").textContent = "Not one of the signs. Try again!";
     document.getElementById("yourHoroscope").textContent = "";
     document.getElementById("icon").src = "";
-  };
-};
-
-
+  }
+}
 
 
 
